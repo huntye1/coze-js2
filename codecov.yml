@@ -20,8 +20,6 @@ component_management:
       - type: project # in this case every component that doens't have a status defined will have a project type one
         target: auto
         threshold: 1%
-        branches:
-          - '!main'
         informational: true # TODO: set false to enable block
       - type: patch
         target: auto
