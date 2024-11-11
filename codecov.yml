@@ -1,10 +1,10 @@
 # valid this file: curl --data-binary @codecov.yml https://codecov.io/validate
 # reference doc: https://docs.codecov.com/docs/common-recipe-list#set-project-coverage-checks-on-a-pull-request
 
-codecov:
-  require_ci_to_pass: false
-  notify:
-    wait_for_ci: false
+# codecov:
+#   require_ci_to_pass: false
+#   notify:
+#     wait_for_ci: false
 
 comment:
   layout: 'diff, components, files, header, footer'
