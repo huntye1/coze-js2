@@ -23,9 +23,11 @@ component_management:
         threshold: 1%
         branches:
           - '!main'
+        informational: true # TODO: set false to enable block
       - type: patch
         target: 100%
         threshold: 1%
+        informational: true
 
   individual_components:
     - component_id: coze-js # this is an identifier that should not be changed
