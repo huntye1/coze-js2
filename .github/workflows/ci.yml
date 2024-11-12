@@ -45,8 +45,6 @@ jobs:
         uses: codecov/codecov-action@v4.2.0
         with:
           files: packages/coze-js/coverage/coverage-final.json,packages/realtime-api/coverage/coverage-final.json
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Lint
         # for current stage, we got so much lint error, so we have to ignore it
